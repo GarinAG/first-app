@@ -1,0 +1,190 @@
+Сценарий для cjkv запущен из run_im.
+Сценарий для default запущен из run_im.
+Сценарий для cjkv запущен из run_im.
+Сценарий для default запущен из run_im.
+compiz (core) - Info: Loading plugin: core
+compiz (core) - Info: Starting plugin: core
+
+(gnome-settings-daemon:2006): color-plugin-WARNING **: failed to get edid: unable to get EDID for output
+compiz (core) - Info: Loading plugin: ccp
+
+(gnome-settings-daemon:2006): color-plugin-WARNING **: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+compiz (core) - Info: Starting plugin: ccp
+compiz (core) - Info: Loading plugin: composite
+compiz (core) - Info: Starting plugin: composite
+compiz (core) - Info: Loading plugin: opengl
+** Message: applet now removed from the notification area
+compiz (core) - Info: Unity is not supported by your hardware. Enabling software rendering instead (slow).
+compiz (core) - Info: Unity is fully supported by your hardware.
+compiz (core) - Info: Starting plugin: opengl
+** Message: using fallback from indicator to GtkStatusIcon
+compiz (core) - Info: Loading plugin: decor
+compiz (core) - Info: Starting plugin: decor
+compiz (core) - Info: Loading plugin: compiztoolbox
+compiz (core) - Info: Starting plugin: compiztoolbox
+compiz (core) - Info: Loading plugin: copytex
+compiz (core) - Info: Starting plugin: copytex
+compiz (core) - Info: Loading plugin: move
+compiz (core) - Info: Starting plugin: move
+compiz (core) - Info: Loading plugin: vpswitch
+compiz (core) - Info: Starting plugin: vpswitch
+compiz (core) - Info: Loading plugin: place
+compiz (core) - Info: Starting plugin: place
+compiz (core) - Info: Loading plugin: mousepoll
+compiz (core) - Info: Starting plugin: mousepoll
+compiz (core) - Info: Loading plugin: snap
+compiz (core) - Info: Starting plugin: snap
+compiz (core) - Info: Loading plugin: resize
+compiz (core) - Info: Starting plugin: resize
+compiz (core) - Info: Loading plugin: regex
+compiz (core) - Info: Starting plugin: regex
+compiz (core) - Info: Loading plugin: gnomecompat
+compiz (core) - Info: Starting plugin: gnomecompat
+compiz (core) - Info: Loading plugin: grid
+compiz (core) - Info: Starting plugin: grid
+compiz (core) - Info: Loading plugin: imgpng
+compiz (core) - Info: Starting plugin: imgpng
+compiz (core) - Info: Loading plugin: session
+compiz (core) - Info: Starting plugin: session
+I/O warning : failed to load external entity "/home/mylinux/.compiz/session/10ca946cddd0d0c5a2138190284263611800000016460031"
+compiz (core) - Info: Loading plugin: unitymtgrabhandles
+
+(nautilus:2295): GLib-GObject-CRITICAL **: g_object_set: assertion `G_IS_OBJECT (object)' failed
+
+(nautilus:2295): GLib-GObject-CRITICAL **: g_object_set: assertion `G_IS_OBJECT (object)' failed
+compiz (core) - Info: Starting plugin: unitymtgrabhandles
+compiz (core) - Info: Loading plugin: animation
+compiz (core) - Info: Starting plugin: animation
+compiz (core) - Info: Loading plugin: wall
+compiz (core) - Info: Starting plugin: wall
+compiz (core) - Info: Loading plugin: fade
+compiz (core) - Info: Starting plugin: fade
+compiz (core) - Info: Loading plugin: expo
+compiz (core) - Info: Starting plugin: expo
+compiz (core) - Info: Loading plugin: scale
+compiz (core) - Info: Starting plugin: scale
+compiz (core) - Info: Loading plugin: workarounds
+compiz (core) - Info: Starting plugin: workarounds
+compiz (core) - Info: Loading plugin: ezoom
+compiz (core) - Info: Starting plugin: ezoom
+compiz (core) - Info: Loading plugin: unityshell
+compiz (core) - Info: Starting plugin: unityshell
+
+(gnome-settings-daemon:2006): color-plugin-WARNING **: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+
+(gnome-settings-daemon:2006): color-plugin-WARNING **: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+
+(gnome-settings-daemon:2006): color-plugin-WARNING **: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+
+(gnome-settings-daemon:2006): color-plugin-WARNING **: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+compiz (core) - Warn: Attempted to restack relative to 0x14000c5 which is not a child of the root window or a window compiz owns
+failed to create drawable
+compiz (core) - Warn: glXCreatePixmap failed
+failed to create drawable
+compiz (core) - Warn: glXCreatePixmap failed
+** Message: moving back from GtkStatusIcon to indicator
+
+** (nm-applet:2294): WARNING **: Could not find ShellVersion property on org.gnome.Shell after 5 tries
+
+** (zeitgeist-datahub:2847): WARNING **: zeitgeist-datahub.vala:231: Unable to get name "org.gnome.zeitgeist.datahub" on the bus!
+
+(process:2868): GLib-CRITICAL **: g_slice_set_config: assertion `sys_page_size == 0' failed
+
+** (nautilus:2295): WARNING **: Error calling current_status: Method "current_status" with signature "" on interface "com.ubuntuone.SyncDaemon.Status" doesn't exist
+
+
+** (nautilus:2295): CRITICAL **: syncdaemon_status_info_get_online: assertion `SYNCDAEMON_IS_STATUS_INFO (sinfo)' failed
+
+(gnome-terminal:2990): Vte-2.90-WARNING **: Не удалось преобразовать символы из набора текущая в набор X-VTE-GUNICHAR.
+Unhandled value type TerminalEncoding of pspec encoding
+
+(gnome-control-center:3048): Gtk-CRITICAL **: gtk_box_pack: assertion `gtk_widget_get_parent (child) == NULL' failed
+
+(gnome-control-center:3048): info-cc-panel-WARNING **: PackageKit version 7.4.0 not supported
+
+(gnome-terminal:3106): Vte-2.90-WARNING **: Не удалось преобразовать символы из набора текущая в набор X-VTE-GUNICHAR.
+Unhandled value type TerminalEncoding of pspec encoding
+
+(gnome-terminal:3106): Vte-2.90-WARNING **: Не удалось преобразовать символы из набора текущая в набор X-VTE-GUNICHAR.
+Nautilus-Share-Message: Called "net usershare info" but it failed: Ошибка 255 при запуске 'net usershare': net usershare: cannot open usershare directory /var/lib/samba/usershares. Error Нет такого файла или каталога
+Please ask your system administrator to enable user sharing.
+
+Traceback (most recent call last):
+  File "/usr/bin/software-properties-gtk", line 103, in <module>
+    app = SoftwarePropertiesGtk(datadir=options.data_dir, options=options, file=file)
+  File "/usr/lib/python3/dist-packages/softwareproperties/gtk/SoftwarePropertiesGtk.py", line 157, in __init__
+    self.apt_cache = apt.Cache()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 105, in __init__
+    self.open(progress)
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 154, in open
+    self._list.read_main_list()
+SystemError: E:Искажённая строка 56 в списке источников /etc/apt/sources.list (dist parse)
+
+(gnome-terminal:3355): Vte-2.90-WARNING **: Не удалось преобразовать символы из набора текущая в набор X-VTE-GUNICHAR.
+Unhandled value type TerminalEncoding of pspec encoding
+
+(nautilus:2295): Gtk-WARNING **: Attempting to read the recently used resources file at `/home/mylinux/.local/share/recently-used.xbel', but the parser failed: Не удалось открыть файл «/home/mylinux/.local/share/recently-used.xbel»: Отказано в доступе.
+
+(nautilus:2295): Gtk-WARNING **: Attempting to read the recently used resources file at `/home/mylinux/.local/share/recently-used.xbel', but the parser failed: Не удалось открыть файл «/home/mylinux/.local/share/recently-used.xbel»: Отказано в доступе.
+
+(nautilus:2295): Gtk-WARNING **: Attempting to read the recently used resources file at `/home/mylinux/.local/share/recently-used.xbel', but the parser failed: Не удалось открыть файл «/home/mylinux/.local/share/recently-used.xbel»: Отказано в доступе.
+
+(gnome-terminal:3459): Vte-2.90-WARNING **: Не удалось преобразовать символы из набора текущая в набор X-VTE-GUNICHAR.
+Unhandled value type TerminalEncoding of pspec encoding
+
+(nautilus:2295): Gtk-WARNING **: Attempting to read the recently used resources file at `/home/mylinux/.local/share/recently-used.xbel', but the parser failed: Не удалось открыть файл «/home/mylinux/.local/share/recently-used.xbel»: Отказано в доступе.
+
+(nautilus:2295): Gtk-WARNING **: Attempting to read the recently used resources file at `/home/mylinux/.local/share/recently-used.xbel', but the parser failed: Не удалось открыть файл «/home/mylinux/.local/share/recently-used.xbel»: Отказано в доступе.
+2013-10-15 23:14:37,626 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2013-10-15 23:14:40,031 - softwarecenter.region - WARNING - failed to use geoclue: 'org.freedesktop.Geoclue.Error.notAvailable: Geoclue master client has no usable Address providers'
+2013-10-15 23:14:40,861 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2013-10-15 23:14:40,908 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2013-10-15 23:14:41,085 - softwarecenter.fixme - WARNING - logs to the root logger: '('/usr/lib/python2.7/dist-packages/gi/importer.py', 51, 'find_module')'
+2013-10-15 23:14:41,084 - root - ERROR - Could not find any typelib for LaunchpadIntegration
+2013-10-15 23:14:41,403 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2013-10-15 23:14:46,277 - softwarecenter.fixme - WARNING - logs to the root logger: '('/usr/share/software-center/softwarecenter/utils.py', 271, 'get_title_from_html')'
+2013-10-15 23:14:46,277 - root - WARNING - failed to parse: '<div style="background-color: #161513; width:1680px; height:200px;">
+ <div style="background: url('/site_media/exhibits/2013/09/AAMFP_Leaderboard_700x200_1.jpg') top left no-repeat; width:700px; height:200px;"></div>
+</div>' ('ascii' codec can't encode character u'\xa0' in position 70: ordinal not in range(128))
+2013-10-15 23:14:52,638 - softwarecenter.db.utils - INFO - software-center-agent finished with status 0
+
+(polkit-gnome-authentication-agent-1:2292): GLib-WARNING **: GChildWatchSource: Exit status of a child process was requested but ECHILD was received by waitpid(). Most likely the process is ignoring SIGCHLD, or some other thread is invoking waitpid() with a nonpositive first argument; either behavior can break applications that use g_child_watch_add()/g_spawn_sync() either directly or indirectly.
+debconf: DbDriver "passwords" warning: could not open /var/cache/debconf/passwords.dat: Отказано в доступе
+debconf: DbDriver "passwords" warning: could not open /var/cache/debconf/passwords.dat: Отказано в доступе
+debconf: DbDriver "passwords" warning: could not open /var/cache/debconf/passwords.dat: Отказано в доступе
+debconf: DbDriver "passwords" warning: could not open /var/cache/debconf/passwords.dat: Отказано в доступе
+debconf: DbDriver "passwords" warning: could not open /var/cache/debconf/passwords.dat: Отказано в доступе
+2013-10-15 23:15:51,713 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+
+(nautilus:2295): Gtk-WARNING **: Attempting to read the recently used resources file at `/home/mylinux/.local/share/recently-used.xbel', but the parser failed: Не удалось открыть файл «/home/mylinux/.local/share/recently-used.xbel»: Отказано в доступе.
+
+(gnome-terminal:3963): Vte-2.90-WARNING **: Не удалось преобразовать символы из набора текущая в набор X-VTE-GUNICHAR.
+Unhandled value type TerminalEncoding of pspec encoding
+
+(gnome-settings-daemon:2006): libappindicator-CRITICAL **: app_indicator_set_label: assertion `IS_APP_INDICATOR (self)' failed
+
+(gnome-settings-daemon:2006): libappindicator-CRITICAL **: app_indicator_set_label: assertion `IS_APP_INDICATOR (self)' failed
+compiz (decor) - Warn: failed to bind pixmap to texture
+compiz (decor) - Warn: failed to bind pixmap to texture
+compiz (decor) - Warn: failed to bind pixmap to texture
+compiz (decor) - Warn: failed to bind pixmap to texture
+compiz (decor) - Warn: failed to bind pixmap to texture
+compiz (decor) - Warn: failed to bind pixmap to texture
+compiz (decor) - Warn: failed to bind pixmap to texture
+compiz (decor) - Warn: failed to bind pixmap to texture
+compiz (decor) - Warn: failed to bind pixmap to texture
+compiz (decor) - Warn: failed to bind pixmap to texture
+compiz (decor) - Warn: failed to bind pixmap to texture
+compiz (decor) - Warn: failed to bind pixmap to texture
+compiz (decor) - Warn: failed to bind pixmap to texture
+compiz (decor) - Warn: failed to bind pixmap to texture
+compiz (decor) - Warn: failed to bind pixmap to texture
+compiz (decor) - Warn: failed to bind pixmap to texture
+compiz (decor) - Warn: failed to bind pixmap to texture
+compiz (decor) - Warn: failed to bind pixmap to texture
+compiz (decor) - Warn: failed to bind pixmap to texture
+compiz (decor) - Warn: failed to bind pixmap to texture
+compiz (decor) - Warn: failed to bind pixmap to texture
+
+(gnome-terminal:15921): Vte-2.90-WARNING **: Не удалось преобразовать символы из набора текущая в набор X-VTE-GUNICHAR.
+Unhandled value type TerminalEncoding of pspec encoding

@@ -1,0 +1,6 @@
+[user]
+	name = Interprise
+	email = koreshdv@yandex.ru
+[alias]
+	co = checkout
+	ci = commit

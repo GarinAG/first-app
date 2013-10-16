@@ -1,0 +1,37 @@
+2013-10-15 06:37:13,165 - twisted - ERROR - Unhandled error in Deferred:
+2013-10-15 06:37:13,203 - twisted - ERROR - Unhandled Error
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 381, in callback
+    self._startRunCallbacks(result)
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 489, in _startRunCallbacks
+    self._runCallbacks()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 576, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 1127, in gotResult
+    _inlineCallbacks(r, g, deferred)
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 1071, in _inlineCallbacks
+    result = g.send(result)
+  File "/usr/lib/python2.7/dist-packages/ubuntuone-client/ubuntuone/syncdaemon/interaction_interfaces.py", line 1273, in connect
+    raise NoAccessToken("got empty credentials.")
+ubuntuone.syncdaemon.interaction_interfaces.NoAccessToken: got empty credentials.
+
+2013-10-15 07:50:08,681 - twisted - ERROR - Unhandled Error
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/twisted/python/context.py", line 81, in callWithContext
+    return func(*args,**kw)
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/posixbase.py", line 614, in _doReadOrWrite
+    why = selectable.doRead()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/_glibbase.py", line 62, in doRead
+    self.reactor._simulate()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/_glibbase.py", line 342, in _simulate
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 778, in runUntilCurrent
+    f(*a, **kw)
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/_glibbase.py", line 292, in stop
+    posixbase.PosixReactorBase.stop(self)
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 582, in stop
+    "Can't stop reactor that isn't running.")
+twisted.internet.error.ReactorNotRunning: Can't stop reactor that isn't running.
+

@@ -1,0 +1,67 @@
+2013-10-15 06:37:12,108 - ubuntuone.SyncDaemon.Main - INFO - Starting Ubuntu One client version 4.2.0
+2013-10-15 06:37:12,108 - ubuntuone.SyncDaemon.Main - INFO - Using '/home/mylinux/Ubuntu One' as root dir
+2013-10-15 06:37:12,108 - ubuntuone.SyncDaemon.Main - INFO - Using '/home/mylinux/.local/share/ubuntuone/syncdaemon' as data dir
+2013-10-15 06:37:12,109 - ubuntuone.SyncDaemon.Main - INFO - Using '/home/mylinux/.local/share/ubuntuone/shares' as shares root dir
+2013-10-15 06:37:12,109 - ubuntuone.SyncDaemon.tritcask - INFO - Initializing Tritcask on: /home/mylinux/.local/share/ubuntuone/syncdaemon/tritcask
+2013-10-15 06:37:12,110 - ubuntuone.SyncDaemon.tritcask - INFO - found 1 data files, 0 dead and 0 broken files
+2013-10-15 06:37:12,110 - ubuntuone.SyncDaemon.tritcask - INFO - keydir ready! (keys: 0)
+2013-10-15 06:37:12,117 - ubuntuone.SyncDaemon.fsm - INFO - loading metadata from old version None
+2013-10-15 06:37:12,128 - ubuntuone.SyncDaemon.fsm - INFO - initialized: idx_path: 0, idx_node_id: 0, shares: 0
+2013-10-15 06:37:12,166 - ubuntuone.SyncDaemon.filesystem_notifications.GeneralProcessor - INFO - Ignoring files: ['\\A#.*\\Z', '\\A.*~\\Z', '\\A.*\\.py[oc]\\Z', '\\A.*\\.sw[nopx]\\Z', '\\A.*\\.swpx\\Z', '\\A\\..*\\.tmp\\Z', '\\A\\.~lock\\..*#\\Z', '\\A.*\\.lock\\Z', '\\A\\.goutputstream-.*\\Z', '\\A.*-Spotlight\\Z', '\\A\\.DS_Store\\Z']
+2013-10-15 06:37:12,224 - ubuntuone.SyncDaemon.TunnelRunner - INFO - Proxy support not installed.
+2013-10-15 06:37:12,231 - ubuntuone.SyncDaemon.HQ - INFO - HashQueue: _hasher started
+2013-10-15 06:37:12,992 - ubuntuone.SyncDaemon.DBus - INFO - DBusInterface initialized.
+2013-10-15 06:37:12,993 - ubuntuone.SyncDaemon.InteractionInterfaces - INFO - connect: args (<ubuntuone.syncdaemon.interaction_interfaces.SyncdaemonService object at 0x99dec2c>,), kwargs {'autoconnecting': True}.
+2013-10-15 06:37:12,993 - ubuntuone.SyncDaemon.InteractionInterfaces - INFO - connect: result <generator object connect at 0x969b874>.
+2013-10-15 06:37:13,119 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'INIT'  (queues IDLE  connection 'Not User Not Network')>; queue: 0; offloaded: 0; hash: 0) ----
+2013-10-15 06:37:13,120 - ubuntuone.SyncDaemon.Main - NOTE - Local rescan starting...
+2013-10-15 06:37:13,120 - ubuntuone.SyncDaemon.local_rescan - INFO - start scan all volumes
+2013-10-15 06:37:13,121 - ubuntuone.SyncDaemon.local_rescan - INFO - processing trash
+2013-10-15 06:37:13,121 - ubuntuone.SyncDaemon.local_rescan - INFO - processing move limbo
+2013-10-15 06:37:13,121 - ubuntuone.SyncDaemon.InteractionInterfaces - INFO - start: args (<ubuntuone.syncdaemon.interaction_interfaces.SyncdaemonService object at 0x99dec2c>,), kwargs {}.
+2013-10-15 06:37:13,122 - ubuntuone.SyncDaemon.InteractionInterfaces - INFO - start: result <Deferred at 0x99f256c current result: None>.
+2013-10-15 06:37:13,122 - ubuntuone.SyncDaemon - INFO - not starting twisted.manhole
+2013-10-15 06:37:13,148 - ubuntuone.SyncDaemon.local_rescan - INFO - Ignoring path as it's a symlink: '/home/mylinux/Ubuntu One/Shared With Me'
+2013-10-15 06:37:13,149 - ubuntuone.SyncDaemon.Main - NOTE - Local rescan finished!
+2013-10-15 06:37:13,149 - ubuntuone.SyncDaemon.Main - INFO - hash queue empty. We are ready!
+2013-10-15 06:37:13,165 - twisted - ERROR - Unhandled error in Deferred:
+2013-10-15 06:37:13,203 - twisted - ERROR - Unhandled Error
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 381, in callback
+    self._startRunCallbacks(result)
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 489, in _startRunCallbacks
+    self._runCallbacks()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 576, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 1127, in gotResult
+    _inlineCallbacks(r, g, deferred)
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 1071, in _inlineCallbacks
+    result = g.send(result)
+  File "/usr/lib/python2.7/dist-packages/ubuntuone-client/ubuntuone/syncdaemon/interaction_interfaces.py", line 1273, in connect
+    raise NoAccessToken("got empty credentials.")
+ubuntuone.syncdaemon.interaction_interfaces.NoAccessToken: got empty credentials.
+
+2013-10-15 06:52:13,189 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues WORKING  connection 'Not User With Network')>; queue: 1; offloaded: 0; hash: 0) ----
+2013-10-15 07:07:13,167 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues WORKING  connection 'Not User With Network')>; queue: 1; offloaded: 0; hash: 0) ----
+2013-10-15 07:22:13,218 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues WORKING  connection 'Not User With Network')>; queue: 1; offloaded: 0; hash: 0) ----
+2013-10-15 07:37:13,172 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues WORKING  connection 'Not User With Network')>; queue: 1; offloaded: 0; hash: 0) ----
+2013-10-15 07:50:08,681 - twisted - ERROR - Unhandled Error
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/twisted/python/context.py", line 81, in callWithContext
+    return func(*args,**kw)
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/posixbase.py", line 614, in _doReadOrWrite
+    why = selectable.doRead()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/_glibbase.py", line 62, in doRead
+    self.reactor._simulate()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/_glibbase.py", line 342, in _simulate
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 778, in runUntilCurrent
+    f(*a, **kw)
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/_glibbase.py", line 292, in stop
+    posixbase.PosixReactorBase.stop(self)
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 582, in stop
+    "Can't stop reactor that isn't running.")
+twisted.internet.error.ReactorNotRunning: Can't stop reactor that isn't running.
+

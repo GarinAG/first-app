@@ -1,0 +1,27 @@
+2013-10-15 06:36:42,238 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2013-10-15 06:36:48,192 - softwarecenter.region - WARNING - failed to use geoclue: 'org.freedesktop.Geoclue.Error.notAvailable: Geoclue master client has no usable Address providers'
+2013-10-15 06:36:48,653 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2013-10-15 06:36:48,688 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2013-10-15 06:36:48,789 - softwarecenter.fixme - WARNING - logs to the root logger: '('/usr/lib/python2.7/dist-packages/gi/importer.py', 51, 'find_module')'
+2013-10-15 06:36:48,788 - root - ERROR - Could not find any typelib for LaunchpadIntegration
+2013-10-15 06:36:49,153 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2013-10-15 06:36:57,758 - softwarecenter.fixme - WARNING - logs to the root logger: '('/usr/share/software-center/softwarecenter/utils.py', 271, 'get_title_from_html')'
+2013-10-15 06:36:57,755 - root - WARNING - failed to parse: '<div style="background-color: #161513; width:1680px; height:200px;">
+ <div style="background: url('/site_media/exhibits/2013/09/AAMFP_Leaderboard_700x200_1.jpg') top left no-repeat; width:700px; height:200px;"></div>
+</div>' ('ascii' codec can't encode character u'\xa0' in position 70: ordinal not in range(128))
+2013-10-15 06:36:57,760 - softwarecenter.ui.gtk3.views.lobbyview - WARNING - skipping exhibit for: 'u'amnesia-amfp'' not available
+2013-10-15 06:36:57,760 - softwarecenter.ui.gtk3.views.lobbyview - WARNING - skipping exhibit for: 'u'wakfu'' not available
+2013-10-15 06:37:00,964 - softwarecenter.db.utils - INFO - software-center-agent finished with status 0
+2013-10-15 23:14:37,626 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2013-10-15 23:14:40,031 - softwarecenter.region - WARNING - failed to use geoclue: 'org.freedesktop.Geoclue.Error.notAvailable: Geoclue master client has no usable Address providers'
+2013-10-15 23:14:40,861 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2013-10-15 23:14:40,908 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2013-10-15 23:14:41,085 - softwarecenter.fixme - WARNING - logs to the root logger: '('/usr/lib/python2.7/dist-packages/gi/importer.py', 51, 'find_module')'
+2013-10-15 23:14:41,084 - root - ERROR - Could not find any typelib for LaunchpadIntegration
+2013-10-15 23:14:41,403 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2013-10-15 23:14:46,277 - softwarecenter.fixme - WARNING - logs to the root logger: '('/usr/share/software-center/softwarecenter/utils.py', 271, 'get_title_from_html')'
+2013-10-15 23:14:46,277 - root - WARNING - failed to parse: '<div style="background-color: #161513; width:1680px; height:200px;">
+ <div style="background: url('/site_media/exhibits/2013/09/AAMFP_Leaderboard_700x200_1.jpg') top left no-repeat; width:700px; height:200px;"></div>
+</div>' ('ascii' codec can't encode character u'\xa0' in position 70: ordinal not in range(128))
+2013-10-15 23:14:52,638 - softwarecenter.db.utils - INFO - software-center-agent finished with status 0
+2013-10-15 23:15:51,713 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
